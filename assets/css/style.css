@@ -75,3 +75,17 @@ li {
 #limpar-lista:hover {
     background-color: #555;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    #imagemFilme {
+        max-width: 80%;
+    }
+}
