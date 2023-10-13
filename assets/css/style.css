@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1,
+h2 {
+    color: #222;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px;
+}
+
+#filmeEscolhidoContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#filmeEscolhido {
+    font-size: 1.3rem;
+}
+
+#imagemFilme {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#adicionar-filme,
+#filmeAssistido,
+#limpar-lista {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#adicionar-filme:hover,
+#filmeAssistido:hover,
+#limpar-lista:hover {
+    background-color: #555;
+}
